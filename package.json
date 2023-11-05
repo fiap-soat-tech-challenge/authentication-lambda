@@ -9,6 +9,7 @@
   "author": "Jonilson Sousa",
   "license": "ISC",
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "postgresql-client": "^2.9.1"
   }
 }

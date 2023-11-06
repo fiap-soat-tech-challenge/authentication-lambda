@@ -32,7 +32,7 @@ async function generateToken(cpf) {
   const secret = Buffer.from(process.env.JWT_SECRET, 'base64');
 
   const token = jwt.sign({ cpf }, secret, {
-    expiresIn: 600 // expires in 10min
+    expiresIn: 3600 // expires in 60min
   });
   
   return token;
